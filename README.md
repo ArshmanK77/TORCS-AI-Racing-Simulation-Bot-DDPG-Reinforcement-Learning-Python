@@ -28,9 +28,13 @@ The solution is **non-rule-based** and relies purely on reinforcement learning. 
 ---
 
 ## 📂 Project Structure
+
 ├── ddpg.py # Implementation of DDPG (actor, critic, replay buffer, training loop)
+
 ├── race_environment.py # Custom Gym environment for TORCS, reward shaping, state processing
+
 ├── Main_Driver.py # Handles UDP communication with TORCS server (template provided)
+
 └── README.md # Project documentation
 
 
@@ -78,7 +82,8 @@ The solution is **non-rule-based** and relies purely on reinforcement learning. 
 - Required Python libraries:
   ```bash
   pip install tensorflow keras gym numpy
-Running the Project
+  
+## Running the Project
 
 Launch TORCS with the server configuration (src_server).
 
